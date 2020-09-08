@@ -31,6 +31,7 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+<<<<<<< HEAD
   
    assembled_aoh = [
     { :name => "Don Gately", :occupation =>"Live-in Staff"},
@@ -42,4 +43,9 @@ def aoh_update(aoh, row, key, new_value)
   assembled_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
   
   assembled_aoh
+=======
+  assembled_aoh[1] = {
+    name: 
+  }
+>>>>>>> f2e77450cca870650bb062d830457e889caa71f3
 end
